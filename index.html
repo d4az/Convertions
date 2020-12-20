@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+        <div class="search" id="seachshit">
+            <div class="darkmodebtn">
+                <select id="theme">
+                    <option value="auto">Auto</option>
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+
+
+
+
+            </div>
+
+            <input type="search" name="" placeholder="Search For the Convertion..." id="search" onkeyup="thesearchfuntion()" onmouseover="closethings()">
+
+
+
+            <ul id="myUL" class="hidden">
+                <li><a href="#" onclick="addinggkg()">Kilograms into Grams</a></li>
+                <li><a href="#" onclick="addinggrams()">Grams into kilograms</a></li>
+                <li><a href="#cel" onclick="celtioparenhite()">Celsius to Fahrenheit</a></li>
+                <li><a href="#centimeters" onclick=" displaycintoinc() ">Centimeters in to inches</a></li>
+
+
+            </ul>
+        </div>
+
+        <div id="grams" class="hidden">
+
+            <div class="close" id="thisclose">
+                <button id="close" onclick="closeme()"> X</button>
+            </div>
+
+            <div class="g">
+                <p> Grams into kilograms</p>
+                <input type="text" placeholder="Enter Value In Grams" id="input" onkeyup="calculatekg() ">
+                <br>
+                <div class="ans" id="answ"></div>
+
+            </div>
+        </div>
+
+        <!--kilograms thing please work ily-->
+        <div id="thisiskg" class="hidden">
+
+            <div class="close" id="thisclose">
+                <button id="close" onclick="kgdivclose()"> X</button>
+            </div>
+
+            <div class="g">
+                <p>kilograms into Grams</p>
+                <input type="text" placeholder="Enter Value In Grams" id="input2" onkeyup="pleasecalculate()">
+                <br>
+                <div class="ans" id="answkg"></div>
+
+            </div>
+        </div>
+
+        <!--cel to farenhite-->
+        <div id="celtof" class="hidden">
+
+            <div class="close" id="thisclose">
+                <button id="close" onclick="closetheceltof()"> X</button>
+            </div>
+
+            <div class="g">
+                <p>Celsius to Fahrenheit</p>
+                <input type="text" placeholder="Enter Value In Grams" id="input3" onkeyup="calculatectof()">
+                <br>
+                <div class="ans" id="answctof"></div>
+
+            </div>
+        </div>
+
+        <!--centemeters in to inc-->
+
+        <div id="ctoincelement" class="hidden">
+
+            <div class="close" id="thisclose">
+                <button id="close" onclick="ctoincclose()"> X</button>
+            </div>
+
+            <div class="g">
+                <p>Centimeters in to inches</p>
+                <input type="text" placeholder="Enter Value In Grams" id="input4" onkeyup="ctoinccal()">
+                <br>
+                <div class="ans" id="answctofcel"></div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
