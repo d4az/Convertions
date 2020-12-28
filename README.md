@@ -18,7 +18,7 @@ here's a screenshot of how it looks
 
 # The suggestions!
 
-So when user search for something the website will come with some suggestions for them 
+So when user search for something the website will come with some suggestions
 
 ![screenshotsearch](https://github.com/d4az/Convertions/blob/main/images/searching.png)
 
