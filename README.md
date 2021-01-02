@@ -26,6 +26,6 @@ So when user search for something the website will come with some suggestions
 # Giving The Answers
 
 So when user clicks on the conversion they need they have boxes to select what the need onece they select one it will show a place to input the values and the
-website will output the values.
+website will output the relevant values
 
 ![screenshotoffuntion](https://github.com/d4az/Convertions/blob/main/images/funtion.png)
