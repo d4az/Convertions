@@ -7,7 +7,7 @@ and it will display a big search bar and you can search for conversion you need.
 [findanswers.ml](http://findanswers.ml/)
 
 
-# The Home And Dark Mode!
+# The Home Page And Dark Mode!
 
 Anyone can come here and they can search for the conversion they need and this will find it for you, Not just that
 You can change the theme of it to dark white or auto.
