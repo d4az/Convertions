@@ -20,7 +20,7 @@ here's a screenshot of how it looks
 
 So when user search for something the website will come with some suggestions
 
-![screenshotsearch](https://github.com/d4az/Convertions/blob/main/images/searching.png)
+![screenshotonsearch](https://github.com/d4az/Convertions/blob/main/images/searching.png)
 
 
 # Giving The Answers!
